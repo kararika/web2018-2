@@ -10,6 +10,9 @@
 <script src="ex06-8.js"></script>
 <script src="ex06-9.js"></script>
 <script src="ex06-10.js"></script>
+<script src="ex06-11.js"></script>
+<script src="ex06-12.js"></script>
+<script src="ex06-13.js"></script>
 
 
 
@@ -53,11 +56,35 @@
   </div>
   
   <h1>タイマーイベントによる実行6-10</h1>
-  <from name="timer">
+  <form name="timer">
   <input type="button" value="スタート" onclick="startfnc()">
   <br>
   <input type="text" name="moji" size="30" value="">
-  </from>
+  </form>
+  <br>
+  <form>
+  <input type="button" value="Timer" onclick="setTimeout('mes()',3000)">
+  </form>
+  
+  <h1>タイマーイベントによる実行6-11</h1>
+  <form name="timer2">
+  <input type="button" value="スタート" onclick="hyoji2()">
+  <br>
+  <input type="text" name="moji2" size="30" value="">
+  </form>
+  
+  <h1>タイマーイベントによる実行6-12</h1>
+  <form name="timer3">
+  <input type="button" value="3秒で変更" onclick="setTimeout('mes()',3000)">
+  <img src='./image/syachi.jpg'id="logo2" alt="syachi Logo">
+    
+  <h1>タイマーイベントによる実行6-13</h1>
+  <form name="timer4">
+  <input type="button" value="変更後3秒でまた戻る" onclick="setTimeout('mes1()',3000)">
+  <img src='./image/syachi.jpg'id="logo3" alt="syachi Logo">
+    </form>
+    
+  </form>
   
   </body>
 
