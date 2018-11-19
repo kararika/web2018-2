@@ -1,5 +1,9 @@
-function mes1(){
- document.getElementById('logo3').src = './image/ocean.jpg';
+ 
+function CangeImageAndBack(){
+  document.getElementById('img13').src = './image/ocean.jpg';
+function CangeImageAndBack(){
+  document.getElementById('img13').src = './image/syachi.jpg';
 }
 
-document.timer4.logo3.value = './image/syachi.jpg'()
+ setTimeout("CangeImageAndBack()",3000)
+}
