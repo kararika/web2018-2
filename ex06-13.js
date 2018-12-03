@@ -1,9 +1,27 @@
- 
-function CangeImageAndBack(){
-  document.getElementById('img13').src = './image/ocean.jpg';
-function CangeImageAndBack(){
-  document.getElementById('img13').src = './image/syachi.jpg';
+function Imagechange13(){
+  
+  imgback();
+  
+  Imagechange14(); 
+  
 }
 
- setTimeout("CangeImageAndBack()",3000)
+
+function Imagechange14(){
+  setTimeout("imgchange2()",3000);
 }
+function imgchange2() {
+  document.getElementById('img13').src = './image/ocean.jpg';
+}
+
+
+function imgback() {
+  document.getElementById('img13').src = './image/syachi.jpg'; 
+}
+
+
+  
+  
+
+ 
+
