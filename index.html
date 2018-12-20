@@ -13,7 +13,15 @@
 <script src="ex06-11.js"></script>
 <script src="ex06-12.js"></script>
 <script src="ex06-13.js"></script>
+<script src="ex07-1.js"></script>
+<script src="ex07-3.js"></script>
+<script src="ex07-4.js"></script>
+<script src="ex07-5.js"></script>
+<script src="ex07-8.js"></script>
+<script src="ex07-9.js"></script>
 <script src="ex09-2.js"></script>
+<script src="ex09-3.js"></script>
+
 
 
 </head>  
@@ -84,10 +92,47 @@
   <input type="button" value="変更後3秒でまた戻る" onclick="Imagechange13();">
   <img src='./image/syachi.jpg' id="img13" alt="syachi Logo" class="imagechange">
   </div>
-    
+  
+  <h1>テキスト入力の練習7-1</h1>
+  <input type="button" value="あいさつ" onclick="sayhello71();">
+  <p>誰?<input type="text" id="who71"></p>
+ 
+  <h1>足し算7-3</h1>
+  <p>
+  <input type="text" id="input1">+<input type="text" id="input2">
+  <input type="button" value="計算" onclick="add();">
+  </p>
+  
+  <h1>ボディマス計算7-4</h1>
+ <p>
+   <input type="text" id="input3">kg/<input type="text" id="input4">m²
+   =<input type="text" id="input5">
+   <input type="button" value="計算" onclick="add2();">
+  </p>
+  
+  <h1>なぞなぞ7-5</h1>
+  <p>目を閉じていないと見られないものはなーに？</p>
+  <p>
+    答（漢字一文字で）:<input type="text" id="answer">
+    <input type="button" value="解答" onclick="nazo();">
+  </p>
+  
+  <h1>なぞなぞ7-8</h1>
+  <p>目を閉じていないと見られないものはなーに？</p>
+  <p>
+    答:<input type="text" id="answer2">
+    <input type="button" value="解答" onclick="nazo2();">
+  </p>
+  
+   
+  
   <h1>JAvaScriptの変数とデバッカを理解09-2</h1>
   <p>下のボタンを押すと数字が表示されます</p>
   <p><input type="button" value="実行ボタン" onclick="addCount()"></p>
+  
+  
+  <p><input type="button" value="変更" onclick="change();"></p>
+  <img src="./image/josai2.png" id="picture" alt="画像" width="100">
   
   
   </body>
