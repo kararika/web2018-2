@@ -1,0 +1,3 @@
+function syachisyoukai(){
+  alert('シャチ');
+}

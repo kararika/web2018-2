@@ -1,0 +1,32 @@
+h1 {color: black; }
+
+body{text-align: center}
+body{background-color: deepskyblue} 
+h1{
+  background
+  width:1250px;
+  height: 100px;
+  text-align: center;
+  font-weight: bold;
+}
+div#pageWrapper {
+         width: auto;
+         margin-right: auto;
+         margin-left: auto;
+         padding-top: 10px;
+         padding-right: 10px;
+         padding-bottom: 10px;
+         padding-left: 10px;
+ }
+
+<style>
+table {
+	border-collapse: collapse;
+}
+td,th {
+	border: solid 1px;
+	padding: 0.5em;
+}
+</style>
+
+table{text-align: center}
