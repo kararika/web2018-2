@@ -1,3 +1,3 @@
 function syachisyoukai(){
-  alert('シャチ');
+  alert('シャチ　学名Orcinus orca クジラ目 マイルカ化')
 }
